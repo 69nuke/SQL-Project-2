@@ -36,7 +36,7 @@
 
 Top 10 remote Data Analyst jobs have salaries ranging from 184k to a whopping 650k per year! Most of these are related to management/director positions though.
 
-![Top Paying Roles](assets/query1_plot.png)
+![Top Paying Roles](pics/query1_plot.png)
 
 ```sql
 SELECT	
@@ -64,7 +64,7 @@ LIMIT 10;
 SQL, Python consistently feature within the top sought-after skills most of the top-paid remote Data Analyst positions. 
 R, Tableau and, PowerBI are also pretty relevant, along with the rest.
 
-![Skills for Top Paying Jobs](assets/query2_plot.png)
+![Skills for Top Paying Jobs](pics/query2_plot.png)
 
 ```sql
 WITH top_paying_jobs AS (
@@ -100,7 +100,7 @@ ORDER BY
 
 Top 5 skills requested for Data Analysts are SQL, Excel, Python, Tableau, PowerBI.
 
-![Top In-Demand Skills for Data Analysts](assets/query3_plot.png)
+![Top In-Demand Skills for Data Analysts](pics/query3_plot.png)
 
 ```sql
 SELECT 
@@ -126,7 +126,7 @@ LIMIT 5;
 Pyspark, Bitbucket and Couchbase are the top three skills associated to the highest average yearly remote Data Analysts salaries.
 The three skills linked to the lower yearly average salaries are PostgreSQL, GCP and Microstrategy.
 
-![Skills Based on Salary](assets/query4_plot.png)
+![Skills Based on Salary](pics/query4_plot.png)
 
 ```sql
 SELECT 
@@ -155,7 +155,7 @@ Insights for skill development by comining combining insights from demand and sa
 - Cloud Tools and Big Data Technologies are highly valuable (GO, Azure, Snowflake, BigQuery, Hadoop...),
 - also database technologies (SQL Server, Oracle, NoSQL...) are associated to high average salaries.
 
-![Skills Based on Salary](assets/query5_plot.png)
+![Skills Based on Salary](pics/query5_plot.png)
 
 ```sql
 -- Identifies skills in high demand for Data Analyst roles
@@ -229,6 +229,8 @@ Insights:
 - **Optimal Skills for Job Market Value**: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
 
 ---- --
+----- -
+
 
 
 
